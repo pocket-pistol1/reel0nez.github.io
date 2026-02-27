@@ -1,2 +1,3 @@
-# pocket_pistol1.github.io
-The pocket pistol website is huge
+# reel0nez website
+
+wip type shit just gimmie a second
