@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Silkscreen;
+    src: url("https://fonts.googleapis.com/css2?family=Silkscreen:wght");
+}
+* {
+    color: white;
+    font-family: Silkscreen,'Courier New', Courier, monospace;
+}
+body {
+    background-color: #000;
+}
+:root {
+    --hdr_fontSize: 95px;
+}
+/* universal rules + fonts*/
+
+/*-------- HEADER ---------*/
+.hdr {
+   font-size: 90px; 
+   display: flex;
+   justify-content: center;
+   flex-wrap: nowrap;
+   text-align: center;
+   margin-bottom: -10px;
+   text-shadow: 0 0 9px #ffffff;
+}
+.R {
+    transition: font-size 0.4s;
+}
+.R:hover {
+    font-size: 95px;
+}
+.E {
+    transition: font-size 0.4s;
+}
+.E:hover {
+    font-size: 95px;
+}
+.E2 {
+    transition: font-size 0.4s;
+}
+.E2:hover {
+    font-size: 95px;
+}
+.L {
+    transition: font-size 0.4s;
+}
+.L:hover {
+    font-size: 95px;
+}
+.O {
+    transition: font-size 0.4s;
+}
+.O:hover {
+    font-size: 95px;
+}
+.N {
+    transition: font-size 0.4s;
+}
+.N:hover {
+    font-size: 95px;
+}
+.E3 {
+    transition: font-size 0.4s;
+}
+.E3:hover {
+    font-size: 95px;
+}
+.Z {
+    transition: font-size 0.4s;
+}
+.Z:hover {
+    font-size: 95px;
+}
+.sub {
+    font-size: 19px;
+    margin-bottom: -10px;
+    text-align: center;
+}
+#hdr_cmmnt {
+    font-size: 12.5px;
+    text-align: left;
+    color: #484848;
+    transition: color 0.5s;
+}
+#hdr_cmmt:hover {
+    color: #ffffff;
+}
+.lt {
+    font-size: 95px;
+}
+.gt {
+    font-size: 95px;
+}
+/*-------- HEADER ---------*/
+
+/*-------- NAVIGATION ---------*/
+#nav_title {
+    margin: 20px;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-shadow: 0 0 9px #ffffff;
+}
+.nav_btns {
+    display: flex;
+    justify-content: center;
+}
+.nav_btns ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 350px;
+}
+.nav_btns li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    background-color: #ffffff;
+    box-shadow: 0px -1px 10px #ffffff;
+    text-decoration: none;
+    transition: box-shadow 0.5s;
+}
+.nav_btns li a:hover {
+    box-shadow: 0px 0px 20px #ffffff;
+}
+.nav_btns li {
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+#nav_cmmt {
+    font-size: 12.5px;
+    text-align: left;
+    color: #484848;
+}
+/*-------- NAVIGATION ---------*/
